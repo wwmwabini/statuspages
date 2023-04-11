@@ -11,8 +11,16 @@ sites:
     url: https://news.ycombinator.com
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
-  - name: Truehost Kenya
+  - name: Truehost.co.ke
     url: https://truehost.co.ke
+  - name: Truehost.com.ng
+    url: https://truehost.com.ng
+  - name: Truehost.co.za
+    url: https://truehost.co.za
+  - name: Truehost.cloud
+    url: https://truehost.cloud
+  - name: Truehost.com
+    url: https://truehost.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
