@@ -139,6 +139,27 @@ sites:
     url: https://jisort.com
   - name: Cloudpap WP
     url: https://cloudpap.com
+    
+  
+  #ERP
+  - name: Odoo
+    url: https://dash.cloudoon.com
+    
+  #VPS
+  - name: master.sbg2
+    url: https://master.sbg2.truehost.cloud
+    
+  #Registries
+  - name: Namesilo
+    url: https://namesilo.com/login
+  - name: Connectreseller
+    url: https://global.connectreseller.com
+  - name: Kenic
+    url: https://registry.kenic.or.ke
+  - name: NiRA
+    url: https://registry.nic.net.ng
+  - name: CozaEPP
+    url: https://portal.registry.net.za/login.php
    
     
 
