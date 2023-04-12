@@ -3,14 +3,6 @@ owner: wwmwabini # Your GitHub organization or username, where this repository l
 repo: statuspages # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
   - name: Truehost.co.ke
     url: https://truehost.co.ke
   - name: Truehost.com.ng
@@ -21,6 +13,19 @@ sites:
     url: https://truehost.cloud
   - name: Truehost.com
     url: https://truehost.com
+  - name: Truehost.co.in
+    url: https://truehost.co.in
+  - name: Truehost.london
+    url: https://truehost.london
+  - name: Truehost.ca
+    url: https://truehost.ca
+    
+  - name: Zola
+    url: https://chat.olitt.net
+  - name: Tickets
+    url: https://tickets.olitt.com/en
+  - name: Voice Call
+    url: https://truehost.elastix.com/webclient/#/login
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -36,6 +41,8 @@ status-website:
       href: /statuspages
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+assignees:
+  - wwmwabini
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
