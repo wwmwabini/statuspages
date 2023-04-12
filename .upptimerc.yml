@@ -5,20 +5,52 @@ repo: statuspages # The name of this repository
 sites:
   - name: Truehost.co.ke
     url: https://truehost.co.ke
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.com.ng
     url: https://truehost.com.ng
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.co.za
     url: https://truehost.co.za
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.cloud
     url: https://truehost.cloud
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.com
     url: https://truehost.com
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.co.in
     url: https://truehost.co.in
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.london
     url: https://truehost.london
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Truehost.ca
     url: https://truehost.ca
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
     #Support Channels
   - name: Zola
     url: https://chat.olitt.net
@@ -154,6 +186,10 @@ sites:
   #Registries
   - name: Namesilo
     url: https://namesilo.com/
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
   - name: Connectreseller
     url: https://global.connectreseller.com
   - name: Kenic
