@@ -134,11 +134,11 @@ sites:
   - name: Cloudpap VMs
     url: https://console.cloudpap.com/
     
-    #Website Front
-   - name: Jisort WP
-     url: https://jisort.com
-   - name: Cloudpap WP
-     url: https://cloudpap.com
+  #Website Front
+  - name: Jisort WP
+    url: https://jisort.com
+  - name: Cloudpap WP
+    url: https://cloudpap.com
    
     
 
