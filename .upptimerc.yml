@@ -147,11 +147,13 @@ sites:
     
   #VPS
   - name: master.sbg2
-    url: https://master.sbg2.truehost.cloud
+    check: "tcp-ping"
+    url: master.sbg2.truehost.cloud
+    port: 4085
     
   #Registries
   - name: Namesilo
-    url: https://namesilo.com/login
+    url: https://namesilo.com/
   - name: Connectreseller
     url: https://global.connectreseller.com
   - name: Kenic
