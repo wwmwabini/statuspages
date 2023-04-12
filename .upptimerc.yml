@@ -5,22 +5,10 @@ repo: statuspages # The name of this repository
 sites:
   - name: Truehost.co.ke
     url: https://truehost.co.ke
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
   - name: Truehost.com.ng
     url: https://truehost.com.ng
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
   - name: Truehost.co.za
     url: https://truehost.co.za
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 404
   - name: Truehost.cloud
     url: https://truehost.cloud
   - name: Truehost.com
@@ -105,7 +93,54 @@ sites:
     url: https://gra110.truehost.cloud
   - name: rbx112
     url: https://gra110.truehost.cloud
-
+    #Truehost Email (Cloudoon Mail)
+  - name: sm1::SMTP::STARTTLS
+    check: "tcp-ping"
+    url: 51.83.3.151
+    port: 587
+  - name: sm1::SMTP::SSL
+    check: "tcp-ping"
+    url: 51.83.3.151
+    port: 465
+  - name: sm1::IMAP
+    check: "tcp-ping"
+    url: 51.83.3.151
+    port: 143
+  - name: sm1::POP3
+    check: "tcp-ping"
+    url: 51.83.3.151
+    port: 110
+  - name: lon103::SMTP::STARTTLS
+    check: "tcp-ping"
+    url: 54.38.215.133
+    port: 587
+  - name: lon103::SMTP::SSL
+    check: "tcp-ping"
+    url: 54.38.215.133
+    port: 465
+  - name: lon103::IMAP
+    check: "tcp-ping"
+    url: 54.38.215.133
+    port: 143
+  - name: lon103::POP3
+    check: "tcp-ping"
+    url: 54.38.215.133
+    port: 110
+   #Web Applications
+  - name: Jisort Portal
+    url: https://my.jisort.com
+  - name: Olitt Shops/Sites
+    url: https://www.olitt.com
+  - name: Cloudpap VMs
+    url: https://console.cloudpap.com/
+    
+    #Website Front
+   - name: Jisort WP
+     url: https://jisort.com
+   - name: Cloudpap WP
+     url: https://cloudpap.com
+   
+    
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
