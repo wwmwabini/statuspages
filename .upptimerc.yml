@@ -19,13 +19,28 @@ sites:
     url: https://truehost.london
   - name: Truehost.ca
     url: https://truehost.ca
-    
+    #Support Channels
   - name: Zola
     url: https://chat.olitt.net
   - name: Tickets
     url: https://tickets.olitt.com/en
   - name: Voice Call
     url: https://truehost.elastix.com/webclient/#/login
+    #Shared Hosting Servers
+  - name: frt106
+    url: https://frt106.truehost.cloud
+  - name: bhs105
+    url: https://bhs105.truehost.cloud
+  - name: gra106
+    url: https://gra106.truehost.cloud
+  - name: gra107
+    url: https://gra107.truehost.cloud
+  - name: gra108
+    url: https://gra108.truehost.cloud
+  - name: gra109
+    url: https://gra109.truehost.cloud
+  - name: gra110
+    url: https://gra110.truehost.cloud
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -41,6 +56,7 @@ status-website:
       href: /statuspages
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
 assignees:
   - wwmwabini
 
