@@ -53,16 +53,70 @@ sites:
     url: https://gra109.truehost.cloud
   - name: gra110
     url: https://gra110.truehost.cloud
+  - name: lim106
+    url: https://frt106.truehost.cloud
+  - name: lim107
+    url: https://bhs105.truehost.cloud
+  - name: lim108
+    url: https://gra106.truehost.cloud
+  - name: lim109
+    url: https://gra107.truehost.cloud
+  - name: lim110
+    url: https://gra108.truehost.cloud
+  - name: lim112
+    url: https://gra109.truehost.cloud
+  - name: lon105
+    url: https://gra110.truehost.cloud
+  - name: lon106
+    url: https://frt106.truehost.cloud
+  - name: lon108
+    url: https://bhs105.truehost.cloud
+  - name: lon109
+    url: https://gra106.truehost.cloud
+  - name: nyc101
+    url: https://gra107.truehost.cloud
+  - name: nyc102
+    url: https://gra108.truehost.cloud
+  - name: pld107
+    url: https://gra109.truehost.cloud
+  - name: pld108
+    url: https://gra110.truehost.cloud
+  - name: pld109
+    url: https://gra107.truehost.cloud
+  - name: rbx106
+    url: https://gra108.truehost.cloud
+  - name: rbx107
+    url: https://gra109.truehost.cloud
+  - name: rbx108
+    url: https://gra110.truehost.cloud
+  - name: rbx109
+    url: https://gra107.truehost.cloud
+  - name: rbx110
+    url: https://gra108.truehost.cloud
+  - name: rbx111
+    url: https://gra109.truehost.cloud
+  - name: sbg106
+    url: https://gra110.truehost.cloud
+  - name: sbg108
+    url: https://gra108.truehost.cloud
+  - name: tor101
+    url: https://gra109.truehost.cloud
+  - name: tor102
+    url: https://gra110.truehost.cloud
+  - name: rbx112
+    url: https://gra110.truehost.cloud
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   #cname: upptime.js.org
+  theme: light
   baseUrl: /statuspages
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Truehost Monitoring** powered by **Upptime**."
+  introMessage: This website shows the status of various Truehost Cloud services. 
   navbar:
     - title: Status
       href: /statuspages
