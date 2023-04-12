@@ -5,10 +5,22 @@ repo: statuspages # The name of this repository
 sites:
   - name: Truehost.co.ke
     url: https://truehost.co.ke
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
   - name: Truehost.com.ng
     url: https://truehost.com.ng
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
   - name: Truehost.co.za
     url: https://truehost.co.za
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
   - name: Truehost.cloud
     url: https://truehost.cloud
   - name: Truehost.com
