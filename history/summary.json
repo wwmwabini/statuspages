@@ -148,10 +148,10 @@
     "url": "https://truehost.ca",
     "icon": "https://icons.duckduckgo.com/ip3/truehost.ca.ico",
     "slug": "truehost-ca",
-    "status": "up",
+    "status": "down",
     "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
     "time": 2152,
@@ -160,6 +160,7 @@
     "timeMonth": 2152,
     "timeYear": 2152,
     "dailyMinutesDown": {
+      "2023-04-27": 1,
       "2023-04-13": 7
     }
   },
@@ -1074,18 +1075,20 @@
     "url": "https://cloudpap.com",
     "icon": "https://icons.duckduckgo.com/ip3/cloudpap.com.ico",
     "slug": "cloudpap-wp",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 399,
-    "timeDay": 420,
+    "timeDay": 407,
     "timeWeek": 394,
     "timeMonth": 399,
     "timeYear": 399,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-04-27": 1
+    }
   },
   {
     "name": "Odoo",
@@ -1094,13 +1097,13 @@
     "slug": "odoo",
     "status": "up",
     "uptime": "88.85%",
-    "uptimeDay": "59.43%",
-    "uptimeWeek": "90.59%",
+    "uptimeDay": "59.86%",
+    "uptimeWeek": "90.63%",
     "uptimeMonth": "88.85%",
     "uptimeYear": "88.85%",
     "time": 3567,
     "timeDay": 3149,
-    "timeWeek": 3327,
+    "timeWeek": 3359,
     "timeMonth": 3567,
     "timeYear": 3567,
     "dailyMinutesDown": {
