@@ -172,10 +172,6 @@ sites:
   - name: Cloudpap WP
     url: https://cloudpap.com
     
-  
-  #ERP
-  - name: Odoo
-    url: https://dash.cloudoon.com
     
   #VPS
   - name: master.sbg2
